@@ -1,0 +1,108 @@
+body {
+	background-image: url("stars.jpg");
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height:100vh;
+	flex-direction: column;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover: 
+}
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+h2{
+	text-align: center;
+	margin-bottom: :40px;
+}
+
+form{
+	width:500px;
+	border: 10px solid #000000;
+	padding: 20px;
+	background: #CFCFCC;
+	border-radius: 15px;
+}
+
+input{
+	display: block;
+	border: 3px solid #ccc;
+	width: 95%;
+	padding:10px;
+	margin:10px auto;
+	border-radius: 5px;
+}
+
+label{
+	color: #000000;
+	font-size: 20px;
+	padding:10px;
+}
+
+button{
+	float:right;
+	background: #000000;
+	padding:10px 15px;
+	color:#fff;
+	border-radius: 5px;
+	margin-right:10px;
+	border:none;
+}
+
+button:hover{
+	opacity: .8;
+}
+
+.error{
+	background: #fff;
+	color:#AA1103;
+	padding:10px;
+	width:50%;
+	border-radius: 10px;
+	margin:20px auto;
+}
+
+.success{
+	background: #fff;
+	color:#AA1103;
+	padding:10px;
+	width:50%;
+	border-radius: 10px;
+	margin:20px auto;
+}
+
+h1 {
+	text-align: top;
+	color: #000000;
+}
+
+/*a {
+	float:right;
+	background: #555;
+	padding:10px 15px;
+	color:#fff;
+	border-radius: 5px;
+	margin-right:10px;
+	border:none;
+}
+
+a:hover{
+	opacity: .8;
+}
+*/
+
+.ca{
+	font-size: 15px;
+	display: inline-block;
+	padding: 15px;
+	text-decoration: none;
+	color: #000000;
+}
+.ca:hover{
+	text-decoration: underline;
+}
+
