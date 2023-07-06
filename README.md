@@ -1,2 +1,2 @@
-# EdC
+# EdC_Uvic
 Uvic career
